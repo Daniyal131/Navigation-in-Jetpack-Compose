@@ -110,7 +110,7 @@ fun Stfu(navController: NavController) {
             navController.popBackStack()
         }, contentAlignment = Alignment.Center){
         Text(
-            text = "Shut The Fuck Up!", fontSize = 45.sp
+            text = "Shut The Fuck Up!", fontSize = 45.sp 
         )
     }
 }
