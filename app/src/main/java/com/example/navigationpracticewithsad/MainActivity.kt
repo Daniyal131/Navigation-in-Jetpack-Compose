@@ -32,6 +32,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             NavigationPracticeWithSadTheme {
                 // A surface container using the 'background' color from the theme
+                // In this all of the basic navigation is covered
                 navController = rememberNavController()
                 SetupNavGraph(navController = navController)
             }
